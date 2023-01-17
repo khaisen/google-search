@@ -7,26 +7,51 @@
 </head>
 
 <body>
-    <ul>
-        <li>
-            <a href="index.html">Google Search</a>
-        </li>
-    </ul>
-    <div class="search_warper">
-        <img src="googlelogo_images.png" alt="googlelogo">
-        <form action="https://www.google.com/search">
-            <input class="search-box" type="text" name="q">
-            <span id="search"><i class="fa-solid fa-magnifying-glass"></i></span>
-
-            </input>
-            <span class="search-buttons">
-                <input type="submit" value="Google Search">
-                <input type="submit" value="I'm Feeling Lucky">
+    <nav>
+        <a href="index.html">
+            <img src="googlelogo_images.png" alt="googlelogo">
+        </a>
+        <ul>
+            <li>
+                <a href="index.html">Google Search</a>
+            </li>
+        </ul>
+    </nav>
+    <h1>Advanced Search</h1>
+    <div class="line-break"></div>
+    <div class="form-warper">
+        
+        <div class="av-cap">
+            <span class="left-h6">Find pages with...</span>
+            <span class="right-h6">To do this in the search box.</span>
+        </div>
+        <form class="av-form" action="https://google.com/search">
+            <span class="av-input">
+                <label for="as_q">all these words:</label>
+                <input type="text" name="as_q">
+                <caption>To do this in the search box.</caption>
             </span>
-
+            <span class="av-input">
+                <label for="as_epq">this excat word or phrase:</label>
+                <input type="text" name="as_epq">
+                <caption>Put exact words in quotes: "rat terrier"</caption>
+            </span>
+            <span class="av-input">
+                <label for="as_oq">any of thsese words:</label>
+                <input type="text" name="as_oq">
+                <caption>Type OR between all the words you want miniature OR standard</caption>
+            </span>
+            <span class="av-input">
+                <label for="as_eq">none of these words:</label>
+                <input type="text" name="as_eq">
+                <caption>Put a minus sign just before words that you don't want: -rodent, -"Jack Russell"</caption>
+            </span>
+            <span class="av-button">
+                <input type="submit" value="Advanced Search">
+            </span>
         </form>
     </div>
-    <script src="https://kit.fontawesome.com/fce566a6a7.js" crossorigin="anonymous"></script>
+
 </body>
 
 </html>
